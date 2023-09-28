@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitMoovie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <script src="https://kit.fontawesome.com/6a9d2d3a3e.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Oswald:wght@300&family=Prompt:wght@300&family=Tajawal&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>BitMoovie</h1>
+    </header>
+    <div class="filter">
+
+
+       
+
+        
+        <label for="sort" class="a">Trier par :</label>
+        <select id="sort">
+            <option value="none">Aucun tri</option>
+            <option value="Date">Year</option>
+            <option value="popularity">Rate</option>
+        </select>
+        
+           
+        
+        <label for="tag" class="a">Filtrer par tag :</label>
+        <select id="tag">
+            <option value="all">Aucun filtre</option>
+            <option value="action">action</option>
+            <option value="drama">drama</option>
+            <option value="comedie">comedie</option>
+            <option value="horror">horror</option>
+            <option value="crime">crime</option>
+            <option value="sci-fi">sci-fi</option>
+            
+            <div id="searchWrapper">
+                <label for="searchBar">Search Title:</label>
+    <input type="text" id="searchBar" name="searchBar" placeholder="Enter the movie name ...!">
+    
+                
+                <button id="viewFavoritesButton" class="but">View Favorites</button>
+                
+                
+            </div>
+        </select>
+        
+    </div>
+    
+    <div class="article-list" id="articleList">
+        
+        <span></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

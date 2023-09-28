@@ -1,0 +1,172 @@
+
+body {
+    background-color: black;
+    color: #3241ff;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+header {
+    background-color: #333; 
+    color: white; 
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    color:#3241ff;
+    font-family: 'Bauhaus 93', 'Bahnschrift Light', sans-serif;
+    font-size:60px;
+    margin:10px;
+
+}
+
+
+
+
+.filter {
+    background-color: #444;
+    padding: 10px;
+}
+
+
+label {
+    color: #3241ff; 
+}
+
+select {
+    background-color: #555; 
+    color: #3241ff;
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+
+.article-card {
+    background-color: #222;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: left;
+    width: calc(50% - 20px);
+    margin: 10px;
+    box-sizing: border-box; 
+}
+
+.article-card > img {
+    height:11rem;
+
+    grid-area: image;
+    float:right;
+    
+}
+
+
+a {
+    color: #3241ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+#searchBar {
+    width: 50rem;
+    height: 32px;
+    border-radius: 40px;
+    border: 1px solid #eaeaea;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+@media (max-width: 900px) {
+  
+    .article-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+    #searchBar {
+        width: 70%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .filter {
+        padding: 5px;
+    }
+
+    select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #searchBar {
+        width: 70%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+   
+}
+
+
+button {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: "Times New Roman", Times, serif;
+       line-height: 2.5em;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+.but
+{
+    margin-left: 30px;
+}
+select{
+   
+        background: #1d1f24;
+        font-size: 13px;
+        
+        border: none;
+        color: #fff;
+        font-family: "Times New Roman", Times, serif;
+        
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.7em 0.5em;
+        border-radius: 0.5em;
+        cursor: pointer;
+      
+}
+
+.a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
